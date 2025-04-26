@@ -1,7 +1,38 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "UH Form Management System"
+excerpt: "Role-based web application for digital form processing at University of Houston"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+**Technologies**: Python, Flask, SQL (Azure), HTML/CSS  
+**Role**: Frontend Development & System Debugging  
+**Links**: [Video](https://youtu.be/PkIRe9yX56g) [Repository](https://github.com/gnguyen2/Chilliwack)
+
+A secure form management system designed to streamline document workflows across University of Houston departments. The application features:
+
+### Tiered Access Control
+- **Basic Users**:  
+  - Digitally sign and submit department-specific forms  
+  - Track submission status (pending/approved/rejected)  
+  - View/download PDF versions of completed forms  
+
+- **Privileged Users (Department-Level)**:  
+  - Review and approve/reject submissions within their department    
+
+- **Administrators**:  
+  - Manage user roles and permissions across all departments  
+  - "Master Department" admins gain system-wide visibility  
+  - Monitor all form activity and system health  
+
+### Technical Implementation
+- **Frontend**: Responsive HTML/CSS interfaces with dynamic form rendering  
+- **Backend**: Flask DB Management, utilizing Microsoft API for login authentication  
+- **Data Layer**: Azure-hosted SQL database storing: 
+  - Form templates/submissions (PDF generation)  
+  - Departmental relationships  
+
+**Key Features**:
+- Departmental isolation with master override capability  
+- PDF generation/download for all form types  
+- Audit-compliant record keeping  
+- Azure-based horizontal scalability  

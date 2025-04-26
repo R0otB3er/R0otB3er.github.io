@@ -19,9 +19,7 @@ Hi! I'm **Calvin Parker**, a growing Software Engineer. This page serves as a co
 
 ## Let's Connect
 
-I'm currently sudying and looking for internship opportunities and would welcome a conversation:  
-
-📧 [email@example.com](mailto:email@example.com)  
-🔗 [LinkedIn Profile](https://linkedin.com/in/yourprofile)    
+I'm currently sudying and looking for internship opportunities and would welcome a conversation  
+   
 
 *This site is built using [GitHub Pages](https://pages.github.com/) for transparency and maintainability. The full codebase is available in my [GitHub repository](https://github.com/yourusername).*
